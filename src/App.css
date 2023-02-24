@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+body{
+height: 100vh;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+   color: #2e2e2e;
+   background:linear-gradient(to bottom right,#ff966d,#fa538d);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  margin: 20px auto;
+  width: 350px;
+}
+h2{
+  margin: 0;
+  border-bottom: 5px solid #2e2e2e;
 }

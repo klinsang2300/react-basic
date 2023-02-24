@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+.item-list{
+    font-family: 'Prompt', sans-serif;
+    list-style-type: none;
+    padding: 0;
+    opacity: 10;
+}
+.item-list li{
+    background: linear-gradient( to bottom right, #fcd6c4,#ffffff);
+    color: #030303;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(247, 114, 169, 0.12);
+    display: flex;
+    justify-content: space-between;
+    margin-top :10px ;
+
+}
