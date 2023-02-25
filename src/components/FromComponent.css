@@ -1,8 +1,12 @@
+.formcom{
+    width: 40%;
+    padding: 0px 40px ;
+}
 .form-control{
     height: 100%;
     text-align: left;
     left: 0;
- 
+
 }
 label{
     display: inline-block;

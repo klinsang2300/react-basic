@@ -1,9 +1,8 @@
-import { number } from 'prop-types'
+
 import {useState,useEffect} from 'react'
 import "./FromComponent.css"
 import { v4 as uuidv4 } from 'uuid';
 const FromComponent =(props)=>{
-    console.log("Render 1")
     const [titel,setTitle] = useState('')
     const [amount,setAmount] = useState(0)
     const [formValid,setFormValid] = useState(false)
@@ -27,14 +26,13 @@ const FromComponent =(props)=>{
     }
 
     useEffect(()=>{
-        if(amount !==0){
-            setFormValid(true)
-        }
+        const checkData = titel.trim().length>0 && amount!==0 
+       setFormValid(checkData)
 
-    },[amount])
+    },[titel,amount])
 
     return(
-        <div>
+        <div className='formcom'>
 
             <form onSubmit={saveItem}>
                 <div className ="form-control">

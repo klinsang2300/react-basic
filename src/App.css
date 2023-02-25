@@ -11,14 +11,21 @@ height: 100vh;
    background:linear-gradient(to bottom right,#ff966d,#fa538d);
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: flex-start;
+   margin-top: 10px;
   align-items: center;
   }
 .container{
   margin: 20px auto;
-  width: 350px;
+  width: 750 px;
 }
 h2{
   margin: 0;
   border-bottom: 5px solid #2e2e2e;
+}
+.form-Data{
+  text-align: center;
+  display: flex;
+    align-items: self-start;
+    justify-content: space-between;
 }
